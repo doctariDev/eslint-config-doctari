@@ -50,6 +50,9 @@ jobs:
         with:
           node-version: 12.x
 
+      - name: 'Prepare git'
+        run: git pull
+
       - name: 'Setup cache for node_modules'
         id: cache-node-modules
         uses: actions/cache@v2
@@ -81,6 +84,9 @@ jobs:
         with:
           node-version: 12.x
 
+      - name: 'Prepare git'
+        run: git pull
+
       - name: 'Setup cache for node_modules'
         id: cache-node-modules
         uses: actions/cache@v2
@@ -111,6 +117,9 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: 12.x
+
+      - name: 'Prepare git'
+        run: git pull
 
       - name: 'Setup cache for node_modules'
         id: cache-node-modules
