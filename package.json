@@ -7,5 +7,16 @@
   "license": "MIT",
   "scripts": {
     "build": "cp -r ./src ./dist"
+  },
+  "dependencies": {
+    "@babel/eslint-parser": "^7.13.14",
+    "@babel/eslint-plugin": "^7.13.10",
+    "@typescript-eslint/eslint-plugin": "^5.4.0",
+    "@typescript-eslint/parser": "^5.4.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-cypress": "^2.11.2",
+    "eslint-plugin-import": "^2.21.2",
+    "eslint-plugin-jest": "^25.2.4",
+    "eslint-plugin-react": "^7.23.1"
   }
 }
