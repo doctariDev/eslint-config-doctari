@@ -1,6 +1,6 @@
 module.exports = {
     'extends': [
-        './default',
+        '@doctarigroup/eslint-config',
     ],
     'overrides': [
         {

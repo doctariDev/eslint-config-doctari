@@ -1,13 +1,10 @@
 {
-  "name": "@doctarigroup/eslint-config-doctari",
+  "name": "@doctarigroup/eslint-config",
   "version": "3.0.2",
   "description": "eslint configuration for doctari",
   "repository": "git@github.com:doctariDev/eslint-config-doctari.git",
   "author": "info@doctari.de",
   "license": "MIT",
-  "scripts": {
-    "build": "cp -r ./src ./dist"
-  },
   "dependencies": {
     "@babel/eslint-parser": "^7.13.14",
     "@babel/eslint-plugin": "^7.13.10",
