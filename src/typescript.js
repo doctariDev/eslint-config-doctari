@@ -10,7 +10,7 @@ module.exports = {
                 '@typescript-eslint',
             ],
             'extends': [
-                './default',
+                '@doctarigroup/eslint-config',
                 'plugin:@typescript-eslint/recommended',
             ],
             'rules': {
