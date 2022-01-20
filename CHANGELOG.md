@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 3.1.0 (2022-01-20)
+
+
+### Features
+
+* **default:** add rule space-in-parens ([235a3e1](https://github.com/doctariDev/eslint-config-doctari/commit/235a3e1fb6d3a42e2c600c79fc245e64fcdabe1d))
+
 ### 3.0.5 (2022-01-19)
 
 
