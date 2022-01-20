@@ -48,6 +48,7 @@ module.exports = {
                 'functions': 'only-multiline',
             },
         ],
+        'space-in-parens': ['error'],
         'prefer-arrow-callback': ['error'],
         'no-multiple-empty-lines': [
             'error', {
