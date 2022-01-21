@@ -12,6 +12,7 @@ module.exports = {
         '@babel',
         'import',
         'jest',
+        'json-format',
     ],
     'env': {
         'node': true,
