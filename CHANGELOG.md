@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 3.2.0 (2022-01-21)
+
+
+### Features
+
+* **default:** add json-format plugin ([e7783d4](https://github.com/doctariDev/eslint-config-doctari/commit/e7783d4bc6075361d0e08c03818b891133a2c33c))
+
 ## 3.1.0 (2022-01-20)
 
 
