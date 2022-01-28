@@ -42,11 +42,11 @@ module.exports = {
         'computed-property-spacing': ['error', 'never'],
         'comma-dangle': [
             'error', {
-                'arrays': 'only-multiline',
-                'objects': 'only-multiline',
-                'imports': 'only-multiline',
-                'exports': 'only-multiline',
-                'functions': 'only-multiline',
+                'arrays': 'always-multiline',
+                'objects': 'always-multiline',
+                'imports': 'always-multiline',
+                'exports': 'always-multiline',
+                'functions': 'always-multiline',
             },
         ],
         'space-in-parens': ['error'],
