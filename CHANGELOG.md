@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 3.3.0 (2022-01-28)
+
+
+### Features
+
+* **comma-dangle:** use always-multiline ([94dfaa2](https://github.com/doctariDev/eslint-config-doctari/commit/94dfaa294838fbb6e0c6c3e811bff9b099969526))
+
 ## 3.2.0 (2022-01-21)
 
 
