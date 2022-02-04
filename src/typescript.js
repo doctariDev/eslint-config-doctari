@@ -7,8 +7,10 @@ module.exports = {
         'plugin:@typescript-eslint/recommended',
     ],
     'rules': {
-        'semi': ['off'],
-        'no-extra-semi': ['off'],
+        'semi': 'off',
+        'no-extra-semi': 'off',
+        'no-unused-vars': 'off',
+        '@typescript-eslint/no-unused-vars': 'error',
         '@typescript-eslint/array-type': [
             'error',
             {
@@ -16,6 +18,6 @@ module.exports = {
                 'read-only': 'generic',
             },
         ],
-        '@typescript-eslint/no-var-requires': ['off'],
+        '@typescript-eslint/no-var-requires': 'off',
     },
 };
