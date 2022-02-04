@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 3.5.0 (2022-02-04)
+
+
+### Features
+
+* **typescript:** disable rule no-var-requires ([6573b47](https://github.com/doctariDev/eslint-config-doctari/commit/6573b472dbfeaf5c74069701241c8ac08ef785f3))
+
 ### 3.4.1 (2022-02-04)
 
 
