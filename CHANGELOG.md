@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 3.6.0 (2022-02-04)
+
+
+### Features
+
+* **typescript:** add no-unused-vars rule ([45bb2fd](https://github.com/doctariDev/eslint-config-doctari/commit/45bb2fdb1c6d0557b8f79b38d4335966136c437b))
+
 ## 3.5.0 (2022-02-04)
 
 
