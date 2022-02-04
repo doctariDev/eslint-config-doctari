@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 3.4.0 (2022-02-04)
+
+
+### Features
+
+* **typescript:** add array-type rule ([f1745cc](https://github.com/doctariDev/eslint-config-doctari/commit/f1745ccb88c1fe99d17daab4c2224fc35249bd85))
+
 ## 3.3.0 (2022-01-28)
 
 
