@@ -1,22 +1,21 @@
 module.exports = {
+    'files': ['*.ts', '*.tsx'],
+    'parser': '@typescript-eslint/parser',
+    'plugins': [
+        '@typescript-eslint',
+    ],
     'extends': [
-        '@doctarigroup/eslint-config',
+        'plugin:@typescript-eslint/recommended',
     ],
-    'overrides': [
-        {
-            'files': ['*.ts', '*.tsx'],
-            'parser': '@typescript-eslint/parser',
-            'plugins': [
-                '@typescript-eslint',
-            ],
-            'extends': [
-                '@doctarigroup/eslint-config',
-                'plugin:@typescript-eslint/recommended',
-            ],
-            'rules': {
-                'semi': ['off'],
-                'no-extra-semi': ['off'],
+    'rules': {
+        'semi': ['off'],
+        'no-extra-semi': ['off'],
+        '@typescript-eslint/array-type': [
+            'error',
+            {
+                'default': 'generic',
+                'read-only': 'generic',
             },
-        },
-    ],
+        ],
+    },
 };
