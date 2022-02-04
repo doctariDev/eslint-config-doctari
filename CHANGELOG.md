@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 3.4.1 (2022-02-04)
+
+
+### Bug Fixes
+
+* **typescript:** remove unexpected property "files" ([260d775](https://github.com/doctariDev/eslint-config-doctari/commit/260d7759306aa8225d09d0b45dd3eef4823a2b27))
+
 ## 3.4.0 (2022-02-04)
 
 
