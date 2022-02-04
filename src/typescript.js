@@ -16,5 +16,6 @@ module.exports = {
                 'read-only': 'generic',
             },
         ],
+        '@typescript-eslint/no-var-requires': ['off'],
     },
 };
