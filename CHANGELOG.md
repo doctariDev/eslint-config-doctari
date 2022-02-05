@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 3.9.1 (2022-02-05)
+
+
+### Bug Fixes
+
+* **typescript:** add rule explicit-function-return-type only for TypeScript files ([cd817ee](https://github.com/doctariDev/eslint-config-doctari/commit/cd817eed4e897d9e107678faebdf74fb1d2b7a44))
+
 ## 3.9.0 (2022-02-05)
 
 
