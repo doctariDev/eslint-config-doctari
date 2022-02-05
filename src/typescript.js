@@ -12,6 +12,7 @@ module.exports = {
         'no-unused-vars': 'off',
         '@typescript-eslint/no-unused-vars': 'error',
         "@typescript-eslint/type-annotation-spacing": "error",
+        "@typescript-eslint/explicit-function-return-type": "error",
         '@typescript-eslint/array-type': [
             'error',
             {
