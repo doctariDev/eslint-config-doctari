@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 3.8.0 (2022-02-05)
+
+
+### Features
+
+* **typescript:** add rule type-annotation-spacing ([2145850](https://github.com/doctariDev/eslint-config-doctari/commit/2145850f8f0e6953122636b29a0b91805e3b0718))
+
 ## 3.7.0 (2022-02-05)
 
 
