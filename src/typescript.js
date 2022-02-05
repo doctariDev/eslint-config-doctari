@@ -11,8 +11,8 @@ module.exports = {
         'no-extra-semi': 'off',
         'no-unused-vars': 'off',
         '@typescript-eslint/no-unused-vars': 'error',
-        "@typescript-eslint/type-annotation-spacing": "error",
-        "@typescript-eslint/explicit-function-return-type": "error",
+        '@typescript-eslint/type-annotation-spacing': 'error',
+        '@typescript-eslint/explicit-function-return-type': 'off',
         '@typescript-eslint/array-type': [
             'error',
             {
@@ -61,4 +61,15 @@ module.exports = {
             },
         ],
     },
+    'overrides': [
+        {
+            'files': [
+                '*.ts',
+                '*.tsx',
+            ],
+            'rules': {
+                '@typescript-eslint/explicit-function-return-type': 'error',
+            },
+        },
+    ],
 };
