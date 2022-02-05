@@ -11,6 +11,7 @@ module.exports = {
         'no-extra-semi': 'off',
         'no-unused-vars': 'off',
         '@typescript-eslint/no-unused-vars': 'error',
+        "@typescript-eslint/type-annotation-spacing": "error",
         '@typescript-eslint/array-type': [
             'error',
             {
