@@ -19,5 +19,44 @@ module.exports = {
             },
         ],
         '@typescript-eslint/no-var-requires': 'off',
+        '@typescript-eslint/naming-convention': [
+            'error',
+            {
+                'selector': 'default',
+                'format': [
+                    'camelCase',
+                ],
+            },
+            {
+                'selector': 'variable',
+                'format': [
+                    'camelCase',
+                    'UPPER_CASE',
+                ],
+            },
+            {
+                'selector': [
+                    'function',
+                    'classMethod',
+                ],
+                'format': [
+                    'camelCase',
+                ],
+                'leadingUnderscore': 'allow',
+            },
+            {
+                'selector': 'objectLiteralProperty',
+                'format': null,
+            },
+            {
+                'selector': [
+                    'typeLike',
+                    'enumMember',
+                ],
+                'format': [
+                    'PascalCase',
+                ],
+            },
+        ],
     },
 };
