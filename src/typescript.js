@@ -13,6 +13,7 @@ module.exports = {
         '@typescript-eslint/no-unused-vars': 'error',
         '@typescript-eslint/type-annotation-spacing': 'error',
         '@typescript-eslint/explicit-function-return-type': 'off',
+        '@typescript-eslint/explicit-member-accessibility': 'off',
         '@typescript-eslint/array-type': [
             'error',
             {
@@ -69,6 +70,7 @@ module.exports = {
             ],
             'rules': {
                 '@typescript-eslint/explicit-function-return-type': 'error',
+                '@typescript-eslint/explicit-member-accessibility': 'error',
             },
         },
     ],
