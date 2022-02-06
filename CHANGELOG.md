@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 3.10.0 (2022-02-06)
+
+
+### Features
+
+* **typescript:** add rule explicit-member-accessibility ([b303ef5](https://github.com/doctariDev/eslint-config-doctari/commit/b303ef5c5ec54a9b699c3749d62d0b16e600120d))
+
 ### 3.9.1 (2022-02-05)
 
 
