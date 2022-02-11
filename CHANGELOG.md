@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 3.11.0 (2022-02-11)
+
+
+### Features
+
+* **default:** add new rule function-paren-newline ([04cbc13](https://github.com/doctariDev/eslint-config-doctari/commit/04cbc13c8a4b1b1f6f7928f4feb4b1d36969a53a))
+
 ## 3.10.0 (2022-02-06)
 
 
