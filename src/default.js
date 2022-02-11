@@ -36,7 +36,7 @@ module.exports = {
         ],
         'padded-blocks': ['error', 'never'],
         'arrow-body-style': ['error', 'as-needed'],
-        'arrow-spacing': ['error'],
+        'arrow-spacing': 'error',
         'object-curly-spacing': ['error', 'never'],
         'array-bracket-spacing': ['error', 'never'],
         'computed-property-spacing': ['error', 'never'],
@@ -49,8 +49,8 @@ module.exports = {
                 'functions': 'always-multiline',
             },
         ],
-        'space-in-parens': ['error'],
-        'prefer-arrow-callback': ['error'],
+        'space-in-parens': 'error',
+        'prefer-arrow-callback': 'error',
         'no-multiple-empty-lines': [
             'error', {
                 'max': 1,
@@ -62,7 +62,8 @@ module.exports = {
         'newline-before-return': 'error',
         'operator-linebreak': ['error', 'before'],
         'nonblock-statement-body-position': ['error', 'below'],
-        'eqeqeq': ['error'],
+        'function-paren-newline': ['error', 'multiline-arguments'],
+        'eqeqeq': 'error',
         'require-jsdoc': [
             'error', {
                 'require': {
