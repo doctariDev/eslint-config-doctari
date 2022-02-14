@@ -10,6 +10,8 @@ module.exports = {
         'semi': 'off',
         'no-extra-semi': 'off',
         'no-unused-vars': 'off',
+        '@typescript-eslint/semi': 'error',
+        '@typescript-eslint/no-extra-semi': 'error',
         '@typescript-eslint/no-unused-vars': 'error',
         '@typescript-eslint/type-annotation-spacing': 'error',
         '@typescript-eslint/explicit-function-return-type': 'off',
