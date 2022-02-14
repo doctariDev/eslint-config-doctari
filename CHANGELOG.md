@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 3.11.1 (2022-02-14)
+
+
+### Bug Fixes
+
+* **typescript:** enable semi rule for typescript ([106b2ce](https://github.com/doctariDev/eslint-config-doctari/commit/106b2ceb315ae1c05339bfc5acb64a0b25cbd5d6))
+
 ## 3.11.0 (2022-02-11)
 
 
