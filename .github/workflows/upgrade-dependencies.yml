@@ -1,0 +1,39 @@
+name: Upgrade dependencies
+
+on:
+  schedule:
+    - cron: '0 7 * * 1'
+  workflow_dispatch:
+
+jobs:
+  runCodeChecks:
+    name: 'Run code checks'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: 'Use node.js'
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12.x
+
+      - name: 'Prepare git'
+        run: |
+          git config --global user.email "noreply@github.com"
+          git config --global user.name "github version update"
+          git branch -u origin/master master
+
+      - name: 'Upgrade dependencies'
+        run: yarn upgrade --latest
+
+      - name: 'Build'
+        run: |
+          npx ./scripts/build.js @doctarigroup/eslint-config default
+          npx ./scripts/build.js @doctarigroup/eslint-config-react react
+          npx ./scripts/build.js @doctarigroup/eslint-config-typescript typescript
+
+      - name: 'Push to git'
+        run: |
+          git add .
+          git commit -m "chore(node): upgrade dependencies"
+          git push
