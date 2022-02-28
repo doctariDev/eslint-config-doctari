@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 3.12.0 (2022-02-28)
+
+
+### Features
+
+* **typescript:** add rule member-delimiter-style ([dad4880](https://github.com/doctariDev/eslint-config-doctari/commit/dad48809ea9ede85191a986942488e3d8eb16adb))
+
 ### 3.11.2 (2022-02-17)
 
 ### 3.11.1 (2022-02-14)
