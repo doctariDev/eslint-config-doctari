@@ -38,6 +38,11 @@ module.exports = {
         'arrow-body-style': ['error', 'as-needed'],
         'arrow-spacing': 'error',
         'object-curly-spacing': ['error', 'never'],
+        'object-property-newline': [
+            'error', {
+                'allowAllPropertiesOnSameLine': true,
+            },
+        ],
         'array-bracket-spacing': ['error', 'never'],
         'computed-property-spacing': ['error', 'never'],
         'comma-dangle': [
