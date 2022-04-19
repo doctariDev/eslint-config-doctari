@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 3.14.0 (2022-04-19)
+
+
+### Features
+
+* treat "any" type warnings as errors ([f0cae19](https://github.com/doctariDev/eslint-config-doctari/commit/f0cae1906dc74c73af5a41866e56aea7b354007e))
+
 ## 3.13.0 (2022-03-08)
 
 
