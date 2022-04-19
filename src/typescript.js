@@ -17,6 +17,7 @@ module.exports = {
         '@typescript-eslint/member-delimiter-style': 'error',
         '@typescript-eslint/explicit-function-return-type': 'off',
         '@typescript-eslint/explicit-member-accessibility': 'off',
+        '@typescript-eslint/no-explicit-any': 'error',
         '@typescript-eslint/array-type': [
             'error',
             {
