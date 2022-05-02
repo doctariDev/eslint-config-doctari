@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 3.15.0 (2022-05-02)
+
+
+### Features
+
+* **react:** add rule react/jsx-curly-spacing ([9d3c5b3](https://github.com/doctariDev/eslint-config-doctari/commit/9d3c5b3ae1650e1d1244d20cd2e5e06c4cb579a1))
+
 ## 3.14.0 (2022-04-19)
 
 
