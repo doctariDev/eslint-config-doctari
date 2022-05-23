@@ -8,16 +8,16 @@
   "dependencies": {
     "@babel/eslint-parser": "^7.17.0",
     "@babel/eslint-plugin": "^7.17.7",
-    "@typescript-eslint/eslint-plugin": "^5.20.0",
-    "@typescript-eslint/parser": "^5.20.0",
+    "@typescript-eslint/eslint-plugin": "^5.25.0",
+    "@typescript-eslint/parser": "^5.25.0",
     "eslint-config-google": "^0.14.0",
     "eslint-plugin-cypress": "^2.11.2",
     "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-jest": "^26.1.5",
+    "eslint-plugin-jest": "^26.2.2",
     "eslint-plugin-jest-formatting": "^3.1.0",
-    "eslint-plugin-react": "^7.29.4"
+    "eslint-plugin-react": "^7.30.0"
   },
   "devDependencies": {
-    "standard-version": "^9.3.2"
+    "standard-version": "^9.5.0"
   }
 }
