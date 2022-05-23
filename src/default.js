@@ -7,12 +7,13 @@ module.exports = {
     'extends': [
         'google',
         'plugin:cypress/recommended',
+        'plugin:jest-formatting/strict'
     ],
     'plugins': [
         '@babel',
         'import',
         'jest',
-        'json-format',
+        'json-formatting',
     ],
     'env': {
         'node': true,
