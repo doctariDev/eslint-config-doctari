@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 3.17.0 (2022-05-23)
+
+
+### Features
+
+* **jest:** add jest-formatting plugin ([1d4c6bd](https://github.com/doctariDev/eslint-config-doctari/commit/1d4c6bd744ad4f8e319ce40c738a5c170333c422))
+
 ### 3.15.1 (2022-05-23)
 
 ## 3.15.0 (2022-05-02)
