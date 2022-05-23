@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 3.17.0 (2022-05-23)
+
+
+### Features
+
+* **node:** enforce version upgrade ([7cb178a](https://github.com/doctariDev/eslint-config-doctari/commit/7cb178a5d9f1b6897a906d613c7c877118ee8594))
+
 ## 3.15.0 (2022-05-23)
 
 
