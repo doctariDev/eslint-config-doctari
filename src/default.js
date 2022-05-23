@@ -7,7 +7,7 @@ module.exports = {
     'extends': [
         'google',
         'plugin:cypress/recommended',
-        'plugin:jest-formatting/strict'
+        'plugin:jest-formatting/strict',
     ],
     'plugins': [
         '@babel',
