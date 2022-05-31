@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 3.18.0 (2022-05-31)
+
+
+### Features
+
+* **default:** add filenames/match-exported rule ([7faade4](https://github.com/doctariDev/eslint-config-doctari/commit/7faade4c4a640a0256e18a335fddda7cddaba5c9))
+
 ### 3.17.2 (2022-05-23)
 
 ## 3.17.0 (2022-05-23)
