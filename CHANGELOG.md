@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 3.19.0 (2022-05-31)
+
+
+### Features
+
+* **default:** add import/no-duplicates and import/no-useless-path-segments rules ([af237b2](https://github.com/doctariDev/eslint-config-doctari/commit/af237b2b4c0c23de065544cff2cca65613993804))
+
 ## 3.18.0 (2022-05-31)
 
 
