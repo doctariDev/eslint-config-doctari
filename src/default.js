@@ -99,5 +99,7 @@ module.exports = {
         'no-unused-vars': 'error',
         '@babel/no-invalid-this': 1,
         'import/order': ['error', {'newlines-between': 'always'}],
+        'import/no-duplicates': 'error',
+        "import/no-useless-path-segments": "error"
     },
 };
