@@ -11,6 +11,7 @@ module.exports = {
     ],
     'plugins': [
         '@babel',
+        'filenames',
         'import',
         'jest',
         'jest-formatting',
@@ -24,6 +25,7 @@ module.exports = {
         'fail': 'readonly',
     },
     'rules': {
+        'filenames/match-exported': ['error', ['camel', 'pascal']],
         'indent': [
             'error', 4, {
                 'SwitchCase': 1,
