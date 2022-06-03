@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 3.20.0 (2022-06-03)
+
+
+### Features
+
+* **default:** add style rules for jest ([d988a07](https://github.com/doctariDev/eslint-config-doctari/commit/d988a07fa565e55f88171579c854126b64717b52))
+
 ## 3.19.0 (2022-05-31)
 
 
