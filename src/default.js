@@ -8,6 +8,7 @@ module.exports = {
         'google',
         'plugin:cypress/recommended',
         'plugin:jest-formatting/strict',
+        'plugin:jest/style',
     ],
     'plugins': [
         '@babel',
@@ -100,6 +101,7 @@ module.exports = {
         '@babel/no-invalid-this': 1,
         'import/order': ['error', {'newlines-between': 'always'}],
         'import/no-duplicates': 'error',
-        "import/no-useless-path-segments": "error"
+        'import/no-useless-path-segments': 'error',
+        'jest/valid-title': 'error',
     },
 };
