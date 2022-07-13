@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 3.21.0 (2022-07-13)
+
+
+### Features
+
+* **typescript:** add rule @typescript-eslint/space-infix-ops ([1dc5d0e](https://github.com/doctariDev/eslint-config-doctari/commit/1dc5d0e43bc406a1bd08994087ea97a325de6ee9))
+
 ## 3.20.0 (2022-06-03)
 
 
