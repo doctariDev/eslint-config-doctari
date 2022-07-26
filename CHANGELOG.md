@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 3.22.2 (2022-07-26)
+
+
+### Bug Fixes
+
+* **typescript:** added PascalCase to variable naming rules for ts ([d228b3e](https://github.com/doctariDev/eslint-config-doctari/commit/d228b3e14e73bd3ce8b07f7899a9ac6bc73d2bd6))
+
 ### 3.22.1 (2022-07-26)
 
 
