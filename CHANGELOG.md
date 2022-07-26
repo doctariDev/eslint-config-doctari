@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 3.22.1 (2022-07-26)
+
+
+### Bug Fixes
+
+* **publish:** made packages implicitly public ([95e52b5](https://github.com/doctariDev/eslint-config-doctari/commit/95e52b528e4041da3165904bf7c4972f4bfce426))
+
 ## 3.22.0 (2022-07-26)
 
 
