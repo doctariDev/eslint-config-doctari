@@ -34,12 +34,13 @@ module.exports = {
                 'format': [
                     'camelCase',
                 ],
-            },
+            },         
             {
                 'selector': 'variable',
                 'format': [
                     'camelCase',
                     'UPPER_CASE',
+                    'PascalCase',
                 ],
             },
             {
