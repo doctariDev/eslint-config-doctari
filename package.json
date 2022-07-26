@@ -5,6 +5,9 @@
   "repository": "git@github.com:doctariDev/eslint-config-doctari.git",
   "author": "info@doctari.de",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "@babel/eslint-parser": "^7.18.9",
     "@babel/eslint-plugin": "^7.17.7",
