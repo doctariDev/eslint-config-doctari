@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 3.22.0 (2022-07-26)
+
+
+### Features
+
+* **typescript-react:** added separete configuration file for typescript frontends ([58ce82b](https://github.com/doctariDev/eslint-config-doctari/commit/58ce82b7bb0b2361ab831b6a53a7accdb477b09e))
+
 ## 3.21.0 (2022-07-13)
 
 
