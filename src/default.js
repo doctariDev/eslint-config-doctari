@@ -98,6 +98,7 @@ module.exports = {
         'no-extra-semi': 'error',
         'no-invalid-this': 0,
         'no-unused-vars': 'error',
+        'dot-notation': 'error',
         '@babel/no-invalid-this': 1,
         'import/order': ['error', {'newlines-between': 'always'}],
         'import/no-duplicates': 'error',
