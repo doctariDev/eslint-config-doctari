@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 3.23.0 (2022-08-25)
+
+
+### Features
+
+* **default:** add dot-notation rule ([d471651](https://github.com/doctariDev/eslint-config-doctari/commit/d47165187a6eae42392d9a69963dab96ea837ee2))
+
 ### 3.22.2 (2022-07-26)
 
 
