@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 3.24.0 (2022-08-29)
+
+
+### Features
+
+* **node:** upgrade node version to 14 ([89d80aa](https://github.com/doctariDev/eslint-config-doctari/commit/89d80aa0c2434162dfd22035c871c72ca8ae1196))
+
 ## 3.23.0 (2022-08-25)
 
 
