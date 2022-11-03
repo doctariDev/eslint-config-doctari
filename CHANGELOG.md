@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 3.26.0 (2022-11-03)
+
+
+### Features
+
+* **typescript:** add @typescript-eslint/await-thenable ([c0f8fb5](https://github.com/doctariDev/eslint-config-doctari/commit/c0f8fb539633903d1bda19b549561baf22a57772))
+
 ## 3.25.0 (2022-11-03)
 
 
