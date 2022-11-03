@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 3.25.0 (2022-11-03)
+
+
+### Features
+
+* **default:** add array-callback-return ([6423662](https://github.com/doctariDev/eslint-config-doctari/commit/64236620e2a356ccacb7d29a6bd42d0a98fecb3c))
+
 ### 3.24.1 (2022-09-12)
 
 ## 3.24.0 (2022-08-29)
