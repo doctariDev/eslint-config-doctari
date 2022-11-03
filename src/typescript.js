@@ -26,6 +26,7 @@ module.exports = {
                 'read-only': 'generic',
             },
         ],
+        '@typescript-eslint/await-thenable': 'error',
         '@typescript-eslint/no-var-requires': 'off',
         '@typescript-eslint/naming-convention': [
             'error',
