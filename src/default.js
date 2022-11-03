@@ -61,6 +61,11 @@ module.exports = {
         ],
         'space-in-parens': 'error',
         'prefer-arrow-callback': 'error',
+        'array-callback-return': [
+            'error', {
+                'checkForEach': true,
+            },
+        ],
         'no-multiple-empty-lines': [
             'error', {
                 'max': 1,
