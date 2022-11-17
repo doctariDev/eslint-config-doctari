@@ -34,6 +34,7 @@ module.exports = {
         ],
         'no-undef': 'error',
         'max-len': ['error', 120, 4],
+        'max-depth': ['warn', {max: 2}],
         'space-infix-ops': [
             'error', {
                 'int32Hint': false,
