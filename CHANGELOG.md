@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 3.27.0 (2022-11-17)
+
+
+### Features
+
+* **default:** add max-depth rule with warn level ([d04d6f2](https://github.com/doctariDev/eslint-config-doctari/commit/d04d6f2e0d6da4b0b003513d8f96626780cc6599))
+
 ## 3.26.0 (2022-11-03)
 
 
