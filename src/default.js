@@ -109,6 +109,7 @@ module.exports = {
         'import/order': ['error', {'newlines-between': 'always'}],
         'import/no-duplicates': 'error',
         'import/no-useless-path-segments': 'error',
+        'import/newline-after-import': 'error',
         'jest/valid-title': 'error',
     },
 };
