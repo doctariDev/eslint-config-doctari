@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 3.28.0 (2022-11-21)
+
+
+### Features
+
+* **default:** add new rule import/newline-after-import ([914970d](https://github.com/doctariDev/eslint-config-doctari/commit/914970d179d2e655700dd4dbce887eedfac9b689))
+
 ## 3.27.0 (2022-11-17)
 
 
