@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 3.29.0 (2022-12-02)
+
+
+### Features
+
+* **react:** remove parseOptions ([fc08195](https://github.com/doctariDev/eslint-config-doctari/commit/fc08195e5d985c487c3f3140d0bb67c72f79b0fc))
+
 ## 3.28.0 (2022-11-21)
 
 
