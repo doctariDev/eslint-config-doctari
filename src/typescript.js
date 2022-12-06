@@ -2,6 +2,7 @@ module.exports = {
     'parser': '@typescript-eslint/parser',
     'plugins': [
         '@typescript-eslint',
+        'redundant-undefined',
     ],
     'extends': [
         'plugin:@typescript-eslint/recommended',
@@ -10,6 +11,7 @@ module.exports = {
         'semi': 'off',
         'no-extra-semi': 'off',
         'no-unused-vars': 'off',
+        'redundant-undefined/redundant-undefined': 'error',
         '@typescript-eslint/semi': 'error',
         '@typescript-eslint/no-extra-semi': 'error',
         '@typescript-eslint/no-unused-vars': 'error',
