@@ -61,7 +61,7 @@ module.exports = {
             },
         ],
         'space-in-parens': 'error',
-        'no-extra-parens': ['error', 'all', {'ignoreJSX': 'multi-line'}],
+        'no-extra-parens': ['error', 'all', {'ignoreJSX': 'all'}],
         'prefer-arrow-callback': 'error',
         'array-callback-return': [
             'error', {
