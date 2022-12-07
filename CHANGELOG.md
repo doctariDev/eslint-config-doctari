@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 3.31.0 (2022-12-07)
+
+
+### Features
+
+* **default:** add rule no-extra-parens ([64eba89](https://github.com/doctariDev/eslint-config-doctari/commit/64eba89eb24a3a2c14ad82fb96cb46c3f274e89d))
+
 ### 3.30.1 (2022-12-06)
 
 ## 3.30.0 (2022-12-02)
