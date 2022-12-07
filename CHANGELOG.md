@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 3.32.0 (2022-12-07)
+
+
+### Features
+
+* **default:** add ignoreJSX option to no-extra-parens ([9e5ddf5](https://github.com/doctariDev/eslint-config-doctari/commit/9e5ddf5a046e343695a3919acc1b01d43670c583))
+
 ## 3.31.0 (2022-12-07)
 
 
