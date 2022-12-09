@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 3.33.0 (2022-12-09)
+
+
+### Features
+
+* **default:** add rule jest/consistent-test-it ([8975102](https://github.com/doctariDev/eslint-config-doctari/commit/89751021b09771cb96c3b610328fdb370ac8a38f))
+
 ### 3.32.1 (2022-12-07)
 
 
