@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 3.36.0 (2022-12-10)
+
+
+### Features
+
+* **default:** add rule jest/no-identical-title ([e109983](https://github.com/doctariDev/eslint-config-doctari/commit/e109983c3268290f668de2ac9c2877785cb9618d))
+
 ## 3.35.0 (2022-12-10)
 
 
