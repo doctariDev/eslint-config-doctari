@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 3.34.0 (2022-12-10)
+
+
+### Features
+
+* **default:** add jest rule no-duplicate-hooks and no-standalone-expect ([af8ca74](https://github.com/doctariDev/eslint-config-doctari/commit/af8ca7450bf8ecf95dc3ea30d5a8793b5ef6c5b1))
+
 ## 3.33.0 (2022-12-09)
 
 
