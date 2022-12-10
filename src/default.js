@@ -114,6 +114,7 @@ module.exports = {
         'jest/consistent-test-it': ['error', {'fn': 'it'}],
         "jest/no-duplicate-hooks": "error",
         "jest/no-standalone-expect": "error",
-        'jest/valid-title': 'error',
+        "jest/valid-expect": "error",
+        'jest/valid-title': 'error'
     },
 };
