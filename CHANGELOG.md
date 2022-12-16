@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 3.37.0 (2022-12-16)
+
+
+### Features
+
+* **default:** add rule jest/no-conditional-expect ([fb58f62](https://github.com/doctariDev/eslint-config-doctari/commit/fb58f62537fae2bed7433855a3a2f32c2b72638b))
+
 ## 3.36.0 (2022-12-10)
 
 
