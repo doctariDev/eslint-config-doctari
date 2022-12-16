@@ -139,37 +139,3 @@ jobs:
         with:
           token: ${{ secrets.NPM_TOKEN }}
           package: ./dist/package.json
-
-  publishTypeScriptReactConfig:
-    name: 'Publish React TypeScript config'
-    needs: releaseNewVersion
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-
-      - name: 'Use Node.js'
-        uses: actions/setup-node@v1
-        with:
-          node-version: 14
-
-      - name: 'Prepare git'
-        run: git pull
-
-      - name: 'Setup cache for node_modules'
-        id: cache-node-modules
-        uses: actions/cache@v2
-        with:
-          path: '**/node_modules'
-          key: ${{ runner.os }}-node_modules-${{ hashFiles('**/yarn.lock') }}
-
-      - name: 'Install project'
-        run: yarn install
-
-      - name: 'Build release'
-        run: npx ./scripts/build.js @doctarigroup/eslint-config-typescript-react typescript-react
-
-      - name: 'Publish release to npm'
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./dist/package.json
