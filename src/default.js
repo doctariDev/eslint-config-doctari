@@ -112,6 +112,7 @@ module.exports = {
         'import/no-useless-path-segments': 'error',
         'import/newline-after-import': 'error',
         'jest/consistent-test-it': ['error', {'fn': 'it'}],
+        'jest/no-conditional-expect': 'error',
         'jest/no-duplicate-hooks': 'error',
         'jest/no-identical-title': 'error',
         'jest/no-standalone-expect': 'error',
