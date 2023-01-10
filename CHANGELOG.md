@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 3.38.0 (2023-01-10)
+
+
+### Features
+
+* **typescript:** add new rule no-unnecessary-type-assertion ([71358ff](https://github.com/doctariDev/eslint-config-doctari/commit/71358ff7d5ce3d849c19bc0a819d23668dadec8f))
+
 ### 3.37.1 (2022-12-16)
 
 ## 3.37.0 (2022-12-16)
