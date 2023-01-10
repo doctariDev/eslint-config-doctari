@@ -30,6 +30,7 @@ module.exports = {
         ],
         '@typescript-eslint/await-thenable': 'error',
         '@typescript-eslint/no-var-requires': 'off',
+        '@typescript-eslint/no-unnecessary-type-assertion': 'error',
         '@typescript-eslint/naming-convention': [
             'error',
             {
