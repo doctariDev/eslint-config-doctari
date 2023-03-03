@@ -33,7 +33,7 @@ module.exports = {
             },
         ],
         'no-undef': 'error',
-        'max-len': ['error', 120, 4],
+        'max-len': ['error', {'code': 120, 'ignorePattern': '^import .*'}],
         'max-depth': ['warn', {max: 2}],
         'space-infix-ops': [
             'error', {
