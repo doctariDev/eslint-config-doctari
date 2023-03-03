@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 3.39.0 (2023-03-03)
+
+
+### Features
+
+* **default:** ignore max-len for imports ([f3be079](https://github.com/doctariDev/eslint-config-doctari/commit/f3be07927ca8326a1e305744050c6fb9f8ec097e))
+
 ## 3.38.0 (2023-01-10)
 
 
