@@ -102,6 +102,7 @@ module.exports = {
                 'requireParamDescription': false,
             },
         ],
+        'no-extra-boolean-cast': 'error',
         'no-extra-semi': 'error',
         'no-invalid-this': 0,
         'no-unused-vars': 'error',
