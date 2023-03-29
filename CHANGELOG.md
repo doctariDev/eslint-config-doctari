@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 3.41.0 (2023-03-29)
+
+
+### Features
+
+* **default:** introduce no-extra-boolean-cast rule ([fa8a579](https://github.com/doctariDev/eslint-config-doctari/commit/fa8a57901820c182a4ccb509e38005e333e5ab0b))
+
 ## 3.40.0 (2023-03-29)
 
 
