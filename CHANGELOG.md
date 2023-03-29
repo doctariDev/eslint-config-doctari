@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 3.40.0 (2023-03-29)
+
+
+### Features
+
+* **default:** add no-useless-escape rule ([dc6205e](https://github.com/doctariDev/eslint-config-doctari/commit/dc6205eae83943810a2d4ed82dac44a47073221e))
+
 ## 3.39.0 (2023-03-03)
 
 
