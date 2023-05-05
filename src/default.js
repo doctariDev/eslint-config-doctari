@@ -107,6 +107,7 @@ module.exports = {
         'no-invalid-this': 0,
         'no-unused-vars': 'error',
         'no-useless-escape': 'error',
+        'no-useless-return': 'error',
         'dot-notation': 'error',
         '@babel/no-invalid-this': 1,
         'import/order': ['error', {'newlines-between': 'always'}],
