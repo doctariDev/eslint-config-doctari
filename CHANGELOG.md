@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 3.42.0 (2023-05-05)
+
+
+### Features
+
+* **default:** add new rule no-useless-return ([a364763](https://github.com/doctariDev/eslint-config-doctari/commit/a364763b8cc59580090bed6748ff107851456759))
+
 ## 3.41.0 (2023-03-29)
 
 
