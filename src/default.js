@@ -12,6 +12,7 @@ module.exports = {
     ],
     'plugins': [
         '@babel',
+        'unicorn',
         'filenames',
         'import',
         'jest',
@@ -110,6 +111,7 @@ module.exports = {
         'no-useless-return': 'error',
         'dot-notation': 'error',
         '@babel/no-invalid-this': 1,
+        'unicorn/throw-new-error': 'error',
         'import/order': ['error', {'newlines-between': 'always'}],
         'import/no-duplicates': 'error',
         'import/no-useless-path-segments': 'error',
