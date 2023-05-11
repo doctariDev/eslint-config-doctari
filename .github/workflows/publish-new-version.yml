@@ -64,7 +64,7 @@ jobs:
         run: yarn install
 
       - name: 'Build release'
-        run: npx ./scripts/build.js @doctarigroup/eslint-config default
+        run: node ./scripts/build.js @doctarigroup/eslint-config default
 
       - name: 'Publish release to npm'
         uses: JS-DevTools/npm-publish@v1
@@ -98,7 +98,7 @@ jobs:
         run: yarn install
 
       - name: 'Build release'
-        run: npx ./scripts/build.js @doctarigroup/eslint-config-react react
+        run: node ./scripts/build.js @doctarigroup/eslint-config-react react
 
       - name: 'Publish release to npm'
         uses: JS-DevTools/npm-publish@v1
@@ -132,7 +132,7 @@ jobs:
         run: yarn install
 
       - name: 'Build release'
-        run: npx ./scripts/build.js @doctarigroup/eslint-config-typescript typescript
+        run: node ./scripts/build.js @doctarigroup/eslint-config-typescript typescript
 
       - name: 'Publish release to npm'
         uses: JS-DevTools/npm-publish@v1
