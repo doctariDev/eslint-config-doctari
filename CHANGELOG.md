@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 3.45.0 (2023-05-31)
+
+
+### Features
+
+* **typescript:** add prefer-optional-chain rule ([5491a17](https://github.com/doctariDev/eslint-config-doctari/commit/5491a17fe99f4bc523399b6e82b792081ed62321))
+
 ## 3.44.0 (2023-05-16)
 
 
