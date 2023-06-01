@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 3.46.0 (2023-06-01)
+
+
+### Features
+
+* **typescript:** add no-duplicate-enum-values rule ([72a9e14](https://github.com/doctariDev/eslint-config-doctari/commit/72a9e1476e000c5c4bcb38ab466a9213adf27926))
+
 ## 3.45.0 (2023-05-31)
 
 
