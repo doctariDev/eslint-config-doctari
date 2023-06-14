@@ -29,7 +29,7 @@ module.exports = {
         ],
         '@typescript-eslint/no-explicit-any': 'error',
         '@typescript-eslint/no-var-requires': 'off',
-        '@typescript-eslint/no-unused-vars': 'error',
+        '@typescript-eslint/no-unused-vars': ['error', { 'ignoreRestSiblings': true }],
         '@typescript-eslint/no-duplicate-enum-values': 'error',
         '@typescript-eslint/no-unnecessary-type-assertion': 'error',
         '@typescript-eslint/prefer-nullish-coalescing': 'error',
@@ -48,6 +48,15 @@ module.exports = {
                     'camelCase',
                     'UPPER_CASE',
                 ],
+            },
+            {
+                'selector': 'variable',
+                'format': null,
+                'modifiers': ['unused'],
+                'custom': {
+                    regex: "^_+$",
+                    match: true,
+                }
             },
             {
                 'selector': [
