@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 3.47.0 (2023-07-10)
+
+
+### Features
+
+* **default:** add rule unicorn/no-empty-file ([c559c4d](https://github.com/doctariDev/eslint-config-doctari/commit/c559c4de052f378b389172af1eaaf9a5a37610d9))
+
 ### 3.46.1 (2023-06-27)
 
 ## 3.46.0 (2023-06-01)
