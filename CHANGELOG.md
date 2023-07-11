@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 3.48.0 (2023-07-11)
+
+
+### Features
+
+* **react:** add react/jsx-filename-extension ([e2b5e89](https://github.com/doctariDev/eslint-config-doctari/commit/e2b5e89844b8848dc74d1b7533ef19d704b8c12a))
+
 ## 3.47.0 (2023-07-10)
 
 
