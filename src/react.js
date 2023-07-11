@@ -57,4 +57,19 @@ module.exports = {
         'react/jsx-curly-spacing': ['error', {'when': 'never', 'children': true}],
         'react/jsx-boolean-value': ['error', 'never'],
     },
+    'overrides': [
+        {
+            'files': [
+                '*.tsx',
+            ],
+            'rules': {
+                'react/jsx-filename-extension': [
+                    'error', {
+                        'allow': 'as-needed',
+                        'extensions': ['.tsx'],
+                    },
+                ],
+            },
+        },
+    ],
 };
