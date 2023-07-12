@@ -43,11 +43,9 @@ module.exports = {
         ],
         'padded-blocks': ['error', 'never'],
         'padding-line-between-statements': [
-            'error', {
-                'blankLine': 'always',
-                'prev': '*',
-                'next': 'export',
-            },
+            'error',
+            {'blankLine': 'always', 'prev': '*', 'next': 'export'},
+            {'blankLine': 'never', 'prev': 'export', 'next': 'export'},
         ],
         'arrow-body-style': ['error', 'as-needed'],
         'arrow-spacing': 'error',
