@@ -42,6 +42,13 @@ module.exports = {
             },
         ],
         'padded-blocks': ['error', 'never'],
+        'padding-line-between-statements': [
+            'error', {
+                'blankLine': 'always',
+                'prev': '*',
+                'next': 'export',
+            },
+        ],
         'arrow-body-style': ['error', 'as-needed'],
         'arrow-spacing': 'error',
         'object-curly-spacing': ['error', 'never'],
@@ -112,7 +119,7 @@ module.exports = {
         'dot-notation': 'error',
         '@babel/no-invalid-this': 1,
         'unicorn/empty-brace-spaces': 'error',
-        "unicorn/no-empty-file": "error",
+        'unicorn/no-empty-file': 'error',
         'unicorn/no-typeof-undefined': 'error',
         'unicorn/no-unnecessary-await': 'error',
         'unicorn/no-useless-undefined': 'error',
