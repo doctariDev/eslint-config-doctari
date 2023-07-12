@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 3.49.1 (2023-07-12)
+
+
+### Bug Fixes
+
+* **default:** rule for empty line before export but not for 2 exports in a row ([0e64415](https://github.com/doctariDev/eslint-config-doctari/commit/0e644156e98c8b81e692900fdae046539e7698c9))
+
 ## 3.49.0 (2023-07-12)
 
 
