@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 3.50.1 (2023-07-20)
+
+
+### Bug Fixes
+
+* **typescript:** fix broken rule @typescript-eslint/array-type ([cb0d836](https://github.com/doctariDev/eslint-config-doctari/commit/cb0d83652fc99c0b95be0a185f8b729c32d2cdae))
+
 ## 3.50.0 (2023-07-20)
 
 
