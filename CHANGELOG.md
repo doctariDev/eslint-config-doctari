@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 3.51.0 (2023-07-20)
+
+
+### Features
+
+* **typescript:** add ignoreConditionalTests to prefer-nullish-coalescing rule ([b48179b](https://github.com/doctariDev/eslint-config-doctari/commit/b48179b6763959f1fb062e5bae781bf915da920d))
+
 ### 3.50.1 (2023-07-20)
 
 
