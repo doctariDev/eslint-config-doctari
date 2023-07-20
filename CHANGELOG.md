@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 3.50.0 (2023-07-20)
+
+
+### Features
+
+* **default:** add unicorn/prefer-object-from-entries ([2a97e67](https://github.com/doctariDev/eslint-config-doctari/commit/2a97e674204e74999633fab68d9839d088a8bcbc))
+
 ### 3.49.1 (2023-07-12)
 
 
