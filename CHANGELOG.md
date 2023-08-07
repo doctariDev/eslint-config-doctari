@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 3.52.0 (2023-08-07)
+
+
+### Features
+
+* **typescript:** add ignorePrimitives for strings to prefer-nullish-coalescing ([26036e7](https://github.com/doctariDev/eslint-config-doctari/commit/26036e74ba8cc5a949893d2a58e1a01dd3326208))
+
 ## 3.51.0 (2023-07-20)
 
 
