@@ -33,7 +33,9 @@ module.exports = {
         '@typescript-eslint/no-unnecessary-type-assertion': 'error',
         '@typescript-eslint/prefer-nullish-coalescing': [
             'error', {
-                'ignoreConditionalTests': true,
+                'ignorePrimitives': {
+                    "string": true
+                }
             },
         ],
         '@typescript-eslint/prefer-optional-chain': 'error',
