@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 3.53.0 (2023-08-09)
+
+
+### Features
+
+* **default:** add simple-import-sort plugin ([5e8c489](https://github.com/doctariDev/eslint-config-doctari/commit/5e8c489aa3ba6ba72b3446e1e8f65069c8f48dd0))
+
 ## 3.52.0 (2023-08-07)
 
 
