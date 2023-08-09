@@ -22,6 +22,7 @@
     "eslint-plugin-json-format": "^2.0.1",
     "eslint-plugin-react": "^7.33.1",
     "eslint-plugin-redundant-undefined": "^0.4.0",
+    "eslint-plugin-simple-import-sort": "^10.0.0",
     "eslint-plugin-unicorn": "^48.0.1"
   },
   "devDependencies": {
