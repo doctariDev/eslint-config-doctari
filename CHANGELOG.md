@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 3.54.0 (2023-08-10)
+
+
+### Features
+
+* **default:** add custom groups to simple-import-sort ([db35007](https://github.com/doctariDev/eslint-config-doctari/commit/db35007aacab849a51e0aab5740d5b7e575b6cfa))
+
 ## 3.53.0 (2023-08-09)
 
 
