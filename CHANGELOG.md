@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 3.55.0 (2023-08-25)
+
+
+### Features
+
+* **default:** add new unicorn rules ([45de235](https://github.com/doctariDev/eslint-config-doctari/commit/45de2351e36d11efeaff9cecd1fe40c9aa882cc5))
+
 ### 3.54.2 (2023-08-12)
 
 ### 3.54.1 (2023-08-12)
