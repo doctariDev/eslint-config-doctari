@@ -6,7 +6,6 @@ module.exports = {
             'version': 'detect',
         },
     },
-    'parser': '@babel/eslint-parser',
     'parserOptions': {
         'ecmaVersion': 6,
         'sourceType': 'module',
@@ -16,9 +15,6 @@ module.exports = {
     },
     'extends': [
         'plugin:react/recommended',
-    ],
-    'plugins': [
-        '@babel',
     ],
     'rules': {
         'jsx-quotes': ['error', 'prefer-double'],
