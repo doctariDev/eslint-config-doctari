@@ -1,5 +1,4 @@
 module.exports = {
-    'parser': '@babel/eslint-parser',
     'parserOptions': {
         'ecmaVersion': 6,
         'sourceType': 'module',
@@ -11,7 +10,6 @@ module.exports = {
         'plugin:jest/style',
     ],
     'plugins': [
-        '@babel',
         'unicorn',
         'filenames',
         'import',
@@ -36,7 +34,7 @@ module.exports = {
         ],
         'no-undef': 'error',
         'max-len': ['error', {'code': 120, 'ignorePattern': '^import .*'}],
-        'max-depth': ['warn', {max: 2}],
+        'max-depth': ['warn', {'max': 2}],
         'space-infix-ops': [
             'error', {
                 'int32Hint': false,
@@ -106,12 +104,11 @@ module.exports = {
         ],
         'no-extra-boolean-cast': 'error',
         'no-extra-semi': 'error',
-        'no-invalid-this': 0,
+        'no-invalid-this': 'error',
         'no-unused-vars': 'error',
         'no-useless-escape': 'error',
         'no-useless-return': 'error',
         'dot-notation': 'error',
-        '@babel/no-invalid-this': 1,
         'unicorn/better-regex': 'error',
         'unicorn/empty-brace-spaces': 'error',
         'unicorn/explicit-length-check': 'error',
