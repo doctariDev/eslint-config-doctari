@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 3.56.0 (2023-09-01)
+
+
+### Features
+
+* **default:** add quotes rule ([da180ab](https://github.com/doctariDev/eslint-config-doctari/commit/da180ab598a15c77331993b9fea58e4349dffa8a))
+
 ### 3.55.2 (2023-08-30)
 
 ### 3.55.1 (2023-08-30)
