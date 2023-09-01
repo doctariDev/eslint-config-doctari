@@ -32,6 +32,7 @@ module.exports = {
                 'SwitchCase': 1,
             },
         ],
+        'quotes': ['error', 'single'],
         'no-undef': 'error',
         'max-len': ['error', {'code': 120, 'ignorePattern': '^import .*'}],
         'max-depth': ['warn', {'max': 2}],
