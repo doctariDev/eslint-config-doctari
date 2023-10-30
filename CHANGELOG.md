@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 3.57.0 (2023-10-30)
+
+
+### Features
+
+* **typescript:** add naming-convention for imports ([810a0c8](https://github.com/doctariDev/eslint-config-doctari/commit/810a0c8feb63a0b1d40c6262a3379b2feddbfb5b))
+
 ## 3.56.0 (2023-09-01)
 
 
