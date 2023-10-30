@@ -34,8 +34,8 @@ module.exports = {
         '@typescript-eslint/prefer-nullish-coalescing': [
             'error', {
                 'ignorePrimitives': {
-                    "string": true
-                }
+                    'string': true,
+                },
             },
         ],
         '@typescript-eslint/prefer-optional-chain': 'error',
@@ -45,6 +45,14 @@ module.exports = {
                 'selector': 'default',
                 'format': [
                     'camelCase',
+                ],
+            },
+            {
+                'selector': 'import',
+                'format': [
+                    'camelCase',
+                    'PascalCase',
+                    'UPPER_CASE',
                 ],
             },
             {
@@ -59,8 +67,8 @@ module.exports = {
                 'format': null,
                 'modifiers': ['unused'],
                 'custom': {
-                    regex: '^_+$',
-                    match: true,
+                    'regex': '^_+$',
+                    'match': true,
                 },
             },
             {
