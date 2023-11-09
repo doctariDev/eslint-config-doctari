@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 3.58.0 (2023-11-09)
+
+
+### Features
+
+* **typescript:** disallow using React.FC or React.FunctionComponent ([08dcebc](https://github.com/doctariDev/eslint-config-doctari/commit/08dcebcfdba1e3855a04191d5477675f19728845))
+
 ## 3.57.0 (2023-10-30)
 
 
