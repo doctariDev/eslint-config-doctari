@@ -114,6 +114,7 @@ module.exports = {
         'unicorn/empty-brace-spaces': 'error',
         'unicorn/explicit-length-check': 'error',
         'unicorn/catch-error-name': 'error',
+        'unicorn/prefer-node-protocol': 'error',
         'unicorn/prefer-object-from-entries': 'error',
         'unicorn/new-for-builtins': 'error',
         'unicorn/no-empty-file': 'error',
