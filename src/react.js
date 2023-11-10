@@ -24,6 +24,16 @@ module.exports = {
                 'forbid': ['>', '}'],
             },
         ],
+        'react/forbid-elements': [
+            'error', {
+                'forbid': [
+                    {
+                        'element': 'React.Fragment',
+                        'message': 'Use "Fragment" instead of "React.Fragment"',
+                    },
+                ],
+            },
+        ],
         'react/jsx-indent': ['error', 4],
         'react/jsx-indent-props': ['error', 4],
         'react/jsx-max-props-per-line': ['error', {'maximum': 1, 'when': 'multiline'}],
