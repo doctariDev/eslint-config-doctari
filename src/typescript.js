@@ -101,6 +101,8 @@ module.exports = {
                 'types': {
                     'React.FC': 'Useless and has some drawbacks, see https://github.com/facebook/create-react-app/pull/8177',
                     'React.FunctionComponent': 'Useless and has some drawbacks, see https://github.com/facebook/create-react-app/pull/8177',
+                    'FC': 'Useless and has some drawbacks, see https://github.com/facebook/create-react-app/pull/8177',
+                    'FunctionComponent': 'Useless and has some drawbacks, see https://github.com/facebook/create-react-app/pull/8177',
                 },
             },
         ],
