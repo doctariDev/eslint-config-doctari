@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 3.61.0 (2023-11-10)
+
+
+### Features
+
+* **react:** forbid React.Fragment ([5e1b8ce](https://github.com/doctariDev/eslint-config-doctari/commit/5e1b8ce2477406295899f5d016d2d1bf43c5cde4))
+
 ## 3.60.0 (2023-11-10)
 
 
