@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 3.59.0 (2023-11-10)
+
+
+### Features
+
+* **default:** add unicorn/prefer-node-protocol rule ([7d2c062](https://github.com/doctariDev/eslint-config-doctari/commit/7d2c062f020a99ad66c54ce42bcb4ea3ce999687))
+
 ## 3.58.0 (2023-11-09)
 
 
