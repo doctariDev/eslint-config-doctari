@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 3.60.0 (2023-11-10)
+
+
+### Features
+
+* **typescript:** do not allow FunctionComponent type ([c356c71](https://github.com/doctariDev/eslint-config-doctari/commit/c356c715c08aea7c9996fbc0562ab058a2d33adc))
+
 ## 3.59.0 (2023-11-10)
 
 
