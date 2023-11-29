@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 3.62.0 (2023-11-29)
+
+
+### Features
+
+* **default:** add blank line before functions ([9bd462c](https://github.com/doctariDev/eslint-config-doctari/commit/9bd462c1af5053bb533f5a9f8ab2371712300f91))
+
 ## 3.61.0 (2023-11-10)
 
 
