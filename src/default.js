@@ -78,6 +78,11 @@ module.exports = {
         ],
         'lines-between-class-members': ['error', 'always'],
         'newline-before-return': 'error',
+        'padding-line-between-statements': [
+            'error',
+            {'blankLine': 'always', 'prev': '*', 'next': 'function'},
+            {'blankLine': 'always', 'prev': '*', 'next': 'return'},
+        ],
         'operator-linebreak': ['error', 'before'],
         'nonblock-statement-body-position': ['error', 'below'],
         'function-paren-newline': ['error', 'multiline-arguments'],
