@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 3.64.0 (2023-12-21)
+
+
+### Features
+
+* **typescript:** forbid React.* types ([ed70db9](https://github.com/doctariDev/eslint-config-doctari/commit/ed70db989667ddacc3ce96fb2a8fe1d9246359ed))
+
 ## 3.63.0 (2023-12-21)
 
 
