@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 3.63.0 (2023-12-21)
+
+
+### Features
+
+* add rule for no string literals in react jsx ([#3](https://github.com/doctariDev/eslint-config-doctari/issues/3)) ([e7e9d54](https://github.com/doctariDev/eslint-config-doctari/commit/e7e9d541fe9e5c0e8c2b7088dada668dbc782571))
+
 ## 3.62.0 (2023-11-29)
 
 
