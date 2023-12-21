@@ -62,6 +62,7 @@ module.exports = {
         'react/jsx-curly-brace-presence': ['error', {'props': 'never', 'children': 'never'}],
         'react/jsx-curly-spacing': ['error', {'when': 'never', 'children': true}],
         'react/jsx-boolean-value': ['error', 'never'],
+        "react/jsx-no-literals": ["error", {"noStrings": true, "ignoreProps": true}],
     },
     'overrides': [
         {
