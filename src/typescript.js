@@ -99,8 +99,12 @@ module.exports = {
             'error',
             {
                 'types': {
-                    'React.FC': 'Useless and has some drawbacks, see https://github.com/facebook/create-react-app/pull/8177',
                     'React.FunctionComponent': 'Useless and has some drawbacks, see https://github.com/facebook/create-react-app/pull/8177',
+                    'React.ReactElement': 'Use "ReactElement" instead of "React.ReactElement"',
+                    'React.ReactNode': 'Use "ReactNode" instead of "React.ReactNode"',
+                    'React.MouseEvent': 'Use "MouseEvent" instead of "React.MouseEvent"',
+                    'React.ChangeEvent': 'Use "ChangeEvent" instead of "React.ChangeEvent"',
+                    'React.FC': 'Useless and has some drawbacks, see https://github.com/facebook/create-react-app/pull/8177',
                     'FC': 'Useless and has some drawbacks, see https://github.com/facebook/create-react-app/pull/8177',
                     'FunctionComponent': 'Useless and has some drawbacks, see https://github.com/facebook/create-react-app/pull/8177',
                 },
