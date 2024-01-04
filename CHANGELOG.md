@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 3.65.0 (2024-01-04)
+
+
+### Features
+
+* **default:** add new rule import-newlines/enforce ([485075a](https://github.com/doctariDev/eslint-config-doctari/commit/485075afcbf78afa84df270db5d7eb6d8fa609a8))
+
 ## 3.64.0 (2023-12-21)
 
 
