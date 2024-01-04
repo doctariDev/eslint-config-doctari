@@ -13,6 +13,7 @@ module.exports = {
         'unicorn',
         'filenames',
         'import',
+        'import-newlines',
         'simple-import-sort',
         'jest',
         'jest-formatting',
@@ -146,6 +147,12 @@ module.exports = {
         'import/no-duplicates': 'error',
         'import/no-useless-path-segments': 'error',
         'import/newline-after-import': 'error',
+        'import-newlines/enforce': [
+            'error', {
+                'items': 50,
+                'max-len': 120,
+            },
+        ],
         'jest/consistent-test-it': ['error', {'fn': 'it'}],
         'jest/no-conditional-expect': 'error',
         'jest/no-duplicate-hooks': 'error',
