@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 3.66.0 (2024-01-22)
+
+
+### Features
+
+* **typescript:** remove rule @typescript-eslint/prefer-nullish-coalescing ([be736fa](https://github.com/doctariDev/eslint-config-doctari/commit/be736fa4bc3d899f66a2472417c2d97095da5729))
+
 ## 3.65.0 (2024-01-04)
 
 
