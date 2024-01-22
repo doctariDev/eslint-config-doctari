@@ -31,13 +31,6 @@ module.exports = {
         '@typescript-eslint/no-unused-vars': ['error', {'ignoreRestSiblings': true}],
         '@typescript-eslint/no-duplicate-enum-values': 'error',
         '@typescript-eslint/no-unnecessary-type-assertion': 'error',
-        '@typescript-eslint/prefer-nullish-coalescing': [
-            'error', {
-                'ignorePrimitives': {
-                    'string': true,
-                },
-            },
-        ],
         '@typescript-eslint/prefer-optional-chain': 'error',
         '@typescript-eslint/naming-convention': [
             'error',
