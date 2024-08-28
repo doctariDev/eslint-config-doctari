@@ -1,6 +1,6 @@
 {
   "name": "@doctarigroup/eslint-config",
-  "version": "3.67.0",
+  "version": "3.67.1",
   "description": "eslint configuration for doctari",
   "repository": "git@github.com:doctariDev/eslint-config-doctari.git",
   "author": "info@doctari.de",
