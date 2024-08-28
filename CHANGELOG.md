@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 3.67.0 (2024-08-28)
+
+
+### Features
+
+* **typescript:** enforce no underscore in function names ([239a7da](https://github.com/doctariDev/eslint-config-doctari/commit/239a7da94ab6f5f1524892c4f27da0cc123f731b))
+
 ## 3.66.0 (2024-01-22)
 
 
