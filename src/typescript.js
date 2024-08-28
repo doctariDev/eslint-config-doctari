@@ -52,6 +52,7 @@ module.exports = {
                 'selector': 'variable',
                 'format': [
                     'camelCase',
+                    'PascalCase',
                     'UPPER_CASE',
                 ],
             },
@@ -72,7 +73,6 @@ module.exports = {
                 'format': [
                     'camelCase',
                 ],
-                'leadingUnderscore': 'allow',
             },
             {
                 'selector': 'objectLiteralProperty',
