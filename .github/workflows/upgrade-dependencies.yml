@@ -24,7 +24,10 @@ jobs:
           git branch -u origin/master master
 
       - name: 'Upgrade dependencies'
-        run: yarn upgrade --latest
+        run: |
+          yarn upgrade --latest
+          yarn add @typescript-eslint/eslint-plugin@7.18.0
+          yarn add @typescript-eslint/parser@7.18.0
 
       - name: 'Build'
         run: |
