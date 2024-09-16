@@ -19,7 +19,7 @@
     "eslint-plugin-jest": "^28.8.3",
     "eslint-plugin-jest-formatting": "^3.1.0",
     "eslint-plugin-json-format": "^2.0.1",
-    "eslint-plugin-react": "^7.35.2",
+    "eslint-plugin-react": "^7.36.1",
     "eslint-plugin-redundant-undefined": "^1.0.0",
     "eslint-plugin-simple-import-sort": "^12.1.1",
     "eslint-plugin-unicorn": "^55.0.0"
