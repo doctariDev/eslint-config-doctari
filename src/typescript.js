@@ -92,12 +92,7 @@ module.exports = {
             'error',
             {
                 'types': {
-                    'React.FunctionComponent': 'Useless and has some drawbacks, see https://github.com/facebook/create-react-app/pull/8177',
-                    'React.ReactElement': 'Use "ReactElement" instead of "React.ReactElement"',
-                    'React.ReactNode': 'Use "ReactNode" instead of "React.ReactNode"',
-                    'React.MouseEvent': 'Use "MouseEvent" instead of "React.MouseEvent"',
-                    'React.ChangeEvent': 'Use "ChangeEvent" instead of "React.ChangeEvent"',
-                    'React.FC': 'Useless and has some drawbacks, see https://github.com/facebook/create-react-app/pull/8177',
+                    'JSX.Element': 'JSX.Element is deprecated. Use ReactElement',
                     'FC': 'Useless and has some drawbacks, see https://github.com/facebook/create-react-app/pull/8177',
                     'FunctionComponent': 'Useless and has some drawbacks, see https://github.com/facebook/create-react-app/pull/8177',
                 },
