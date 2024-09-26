@@ -143,6 +143,21 @@ module.exports = {
                 ],
             },
         ],
+        'no-restricted-syntax': [
+            'error',
+            {
+                'selector': 'MemberExpression[object.name=\'React\'][property.name=/.*/]',
+                'message': 'Do not access hooks using "React.*" Import them directly.',
+            },
+            {
+                'selector': 'TSTypeReference > TSQualifiedName[left.name=\'React\']',
+                'message': 'Do not use React types like \'React.*\'. Import them directly.',
+            },
+            {
+                'selector': 'TSTypeReference > TSQualifiedName[left.left.name=\'React\']',
+                'message': 'Do not use React types like \'React.*\'. Import them directly.',
+            },
+        ],
         'import/first': 'error',
         'import/no-duplicates': 'error',
         'import/no-useless-path-segments': 'error',
