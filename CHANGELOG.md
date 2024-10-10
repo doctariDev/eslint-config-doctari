@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 3.69.1 (2024-10-10)
+
+
+### Bug Fixes
+
+* add rule multi line comment style to correct file ([1eff647](https://github.com/doctariDev/eslint-config-doctari/commit/1eff6474bd6e1cd077e44c98eee43c202353c63d))
+
 ## 3.69.0 (2024-10-10)
 
 
