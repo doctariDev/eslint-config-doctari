@@ -175,5 +175,6 @@ module.exports = {
         'jest/no-standalone-expect': 'error',
         'jest/valid-expect': 'error',
         'jest/valid-title': 'error',
+        "multiline-comment-style": ["error", "starred-block"],
     },
 };

@@ -98,7 +98,6 @@ module.exports = {
                 },
             },
         ],
-        "multiline-comment-style": ["error", "starred-block"]
     },
     'overrides': [
         {
