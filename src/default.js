@@ -175,6 +175,13 @@ module.exports = {
         'jest/no-standalone-expect': 'error',
         'jest/valid-expect': 'error',
         'jest/valid-title': 'error',
-        "multiline-comment-style": ["error", "starred-block"],
+        'jest/no-restricted-matchers': [
+            'error',
+            {
+                'toBeTruthy': 'Avoid "toBeTruthy" use "toBe(true)" instead',
+                'toBeFalsy': 'Avoid "toBeFalsy" use `toBe(false) instead"',
+            },
+        ],
+        'multiline-comment-style': ['error', 'starred-block'],
     },
 };
