@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 3.70.0 (2024-10-29)
+
+
+### Features
+
+* **jest:** forbig toBeTruthy and toBeFalsy ([4a6443b](https://github.com/doctariDev/eslint-config-doctari/commit/4a6443b9eb67a3ec658e0b24073dbc1fd1d1cc52))
+
 ### 3.69.1 (2024-10-10)
 
 
