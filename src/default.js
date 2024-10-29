@@ -179,7 +179,7 @@ module.exports = {
             'error',
             {
                 'toBeTruthy': 'Avoid "toBeTruthy" use "toBe(true)" instead',
-                'toBeFalsy': 'Avoid "toBeFalsy" use `toBe(false) instead"',
+                'toBeFalsy': 'Avoid "toBeFalsy" use "toBe(false)" instead',
             },
         ],
         'multiline-comment-style': ['error', 'starred-block'],
