@@ -182,6 +182,5 @@ module.exports = {
                 'toBeFalsy': 'Avoid "toBeFalsy" use "toBe(false)" instead',
             },
         ],
-        'multiline-comment-style': ['error', 'starred-block'],
     },
 };
