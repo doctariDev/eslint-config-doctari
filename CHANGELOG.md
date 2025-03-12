@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 3.72.0 (2025-03-12)
+
+
+### Features
+
+* add a specific version for eslint-plugin-unicorn ([#4](https://github.com/doctariDev/eslint-config-doctari/issues/4)) ([0d17619](https://github.com/doctariDev/eslint-config-doctari/commit/0d17619f314b5e0a0d445f8fa8c12ebfc0c0d62f))
+
 ## 3.71.0 (2025-03-03)
 
 
