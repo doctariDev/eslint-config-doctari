@@ -28,7 +28,8 @@ jobs:
           yarn upgrade --latest
           yarn add @typescript-eslint/eslint-plugin@7.18.0
           yarn add @typescript-eslint/parser@7.18.0
-          yarn add eslint-plugin-unicorn@56.0.1 -W
+          yarn add eslint-plugin-cypress@4.3.0
+          yarn add eslint-plugin-unicorn@56.0.1
 
       - name: 'Build'
         run: |
