@@ -157,6 +157,10 @@ module.exports = {
                 'selector': 'TSTypeReference > TSQualifiedName[left.left.name=\'React\']',
                 'message': 'Do not use React types like \'React.*\'. Import them directly.',
             },
+            {
+                "selector": "ReturnStatement[argument.type='Identifier'][argument.name='undefined']",
+                "message": "Use `return;` instead of `return undefined;`"
+            }
         ],
         'import/first': 'error',
         'import/no-duplicates': 'error',
