@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 3.73.0 (2025-09-05)
+
+
+### Features
+
+* **default:** add rule to enforce return; instead of return undefined; ([8728d3a](https://github.com/doctariDev/eslint-config-doctari/commit/8728d3a7d0d39b673c37c820dccf970b5ae410d0))
+
 ## 3.72.0 (2025-03-12)
 
 
