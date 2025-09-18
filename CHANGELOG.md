@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 3.74.0 (2025-09-18)
+
+
+### Features
+
+* add rule workspaces/no-relative-imports ([7f42ff3](https://github.com/doctariDev/eslint-config-doctari/commit/7f42ff3183dfdfdac81bb3e2f744f712860daaf8))
+
 ### 3.73.1 (2025-09-05)
 
 ## 3.73.0 (2025-09-05)
