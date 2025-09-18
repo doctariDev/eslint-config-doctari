@@ -12,6 +12,7 @@ module.exports = {
     'plugins': [
         'unicorn',
         'filenames',
+        'workspaces',
         'import',
         'import-newlines',
         'simple-import-sort',
@@ -162,6 +163,7 @@ module.exports = {
                 "message": "Use `return;` instead of `return undefined;`"
             }
         ],
+        'workspaces/no-relative-imports': 'error',
         'import/first': 'error',
         'import/no-duplicates': 'error',
         'import/no-useless-path-segments': 'error',
