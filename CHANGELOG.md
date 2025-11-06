@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 3.75.0 (2025-11-06)
+
+
+### Features
+
+* **react:** add more rules ([3b8291c](https://github.com/doctariDev/eslint-config-doctari/commit/3b8291ccbfb7a78e96f9d1e08e74e8028d498cf8))
+
 ## 3.74.0 (2025-09-18)
 
 
