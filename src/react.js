@@ -19,11 +19,16 @@ module.exports = {
     'rules': {
         'jsx-quotes': ['error', 'prefer-double'],
         'react/display-name': 0,
+        "react/no-deprecated": "error",
+        "react/no-did-mount-set-state": "error",
+        "react/no-direct-mutation-state": "error",
+        "react/no-find-dom-node": "error",
         'react/no-unescaped-entities': [
             'error', {
                 'forbid': ['>', '}'],
             },
         ],
+        "react/no-unsafe": "error",
         'react/forbid-elements': [
             'error', {
                 'forbid': [
@@ -34,12 +39,15 @@ module.exports = {
                 ],
             },
         ],
-        "react/jsx-pascal-case": "error",
         "react/self-closing-comp": "error",
+        "react/state-in-constructor": "error",
         "react/prefer-stateless-function": "error",
+        "react/prop-types": "error",
+        "react/jsx-pascal-case": "error",
         'react/jsx-indent': ['error', 4],
         'react/jsx-indent-props': ['error', 4],
         'react/jsx-max-props-per-line': ['error', {'maximum': 1, 'when': 'multiline'}],
+        "react/jsx-key": "error",
         'react/jsx-first-prop-new-line': ['error', 'multiline'],
         'react/jsx-closing-bracket-location': ['error', 'tag-aligned'],
         'react/jsx-wrap-multilines': [
