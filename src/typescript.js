@@ -39,10 +39,13 @@ const typescriptConfig = [
             ],
             '@typescript-eslint/no-explicit-any': 'error',
             '@typescript-eslint/no-var-requires': 'off',
-            '@typescript-eslint/no-unused-vars': ['error', {'ignoreRestSiblings': true}],
+            '@typescript-eslint/no-unused-vars': ['error', {
+                'ignoreRestSiblings': true,
+                'caughtErrors': 'none',
+            }],
             '@typescript-eslint/no-duplicate-enum-values': 'error',
             '@typescript-eslint/no-unnecessary-type-assertion': 'error',
-            '@typescript-eslint/prefer-optional-chain': 'error',
+            '@typescript-eslint/prefer-optional-chain': 'off',
             '@typescript-eslint/naming-convention': [
                 'error',
                 {
