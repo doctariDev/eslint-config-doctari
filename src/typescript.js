@@ -102,6 +102,13 @@ const typescriptConfig = [
                         'PascalCase',
                     ],
                 },
+                {
+                    'selector': 'typeProperty',
+                    'format': [
+                        'camelCase',
+                        'PascalCase',
+                    ],
+                },
             ],
             '@typescript-eslint/no-restricted-types': [
                 'error',
