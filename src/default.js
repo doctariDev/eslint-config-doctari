@@ -40,6 +40,8 @@ const defaultConfig = [
             ],
             'quotes': ['error', 'single'],
             'no-undef': 'error',
+            'no-prototype-builtins': 'off',
+            'no-empty': ['error', {'allowEmptyCatch': true}],
             'max-len': ['error', {'code': 120, 'ignorePattern': '^import .*'}],
             'max-depth': ['warn', {'max': 2}],
             'space-infix-ops': [
