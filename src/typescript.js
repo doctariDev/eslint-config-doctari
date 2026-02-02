@@ -75,10 +75,7 @@ const typescriptConfig = [
                     'selector': 'variable',
                     'format': null,
                     'modifiers': ['unused'],
-                    'custom': {
-                        'regex': '^_+$',
-                        'match': true,
-                    },
+                    'leadingUnderscore': 'require',
                 },
                 {
                     'selector': [
