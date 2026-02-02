@@ -20,6 +20,7 @@ const typescriptConfig = [
             'no-extra-semi': 'off',
             'no-unused-vars': 'off',
             'no-undef': 'off',
+            'no-redeclare': 'off',
             'redundant-undefined/redundant-undefined': 'error',
             '@stylistic/semi': 'error',
             '@stylistic/no-extra-semi': 'error',
