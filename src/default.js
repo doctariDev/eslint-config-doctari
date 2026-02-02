@@ -14,7 +14,7 @@ const defaultConfig = [
     js.configs.recommended,
     {
         linterOptions: {
-            reportUnusedDisableDirectives: 'warn',
+            reportUnusedDisableDirectives: 'off',
         },
         plugins: {
             unicorn: unicornPlugin,
