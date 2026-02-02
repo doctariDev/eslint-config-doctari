@@ -43,6 +43,7 @@ const typescriptConfig = [
             '@typescript-eslint/no-unused-vars': ['error', {
                 'ignoreRestSiblings': true,
                 'caughtErrors': 'none',
+                'varsIgnorePattern': '^_',
             }],
             '@typescript-eslint/no-duplicate-enum-values': 'error',
             '@typescript-eslint/no-unnecessary-type-assertion': 'error',
