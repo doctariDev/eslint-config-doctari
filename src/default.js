@@ -24,11 +24,11 @@ const defaultConfig = [
             cypress: fixupPluginRules(cypressPlugin),
         },
         languageOptions: {
-            ecmaVersion: 6,
+            ecmaVersion: 2020,
             sourceType: 'module',
             globals: {
                 ...globals.node,
-                ...globals.es6,
+                ...globals.es2020,
                 fail: 'readonly',
             },
         },
