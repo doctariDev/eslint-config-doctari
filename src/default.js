@@ -13,6 +13,9 @@ import globals from 'globals';
 const defaultConfig = [
     js.configs.recommended,
     {
+        linterOptions: {
+            reportUnusedDisableDirectives: 'warn',
+        },
         plugins: {
             unicorn: unicornPlugin,
             workspaces: workspacesPlugin,
