@@ -24,7 +24,7 @@ const typescriptConfig = [
             'redundant-undefined/redundant-undefined': 'error',
             '@stylistic/semi': 'error',
             '@stylistic/no-extra-semi': 'error',
-            '@typescript-eslint/await-thenable': 'off',
+            '@typescript-eslint/await-thenable': 'error',
             '@typescript-eslint/no-require-imports': 'off',
             '@typescript-eslint/no-unused-expressions': 'off',
             '@stylistic/type-annotation-spacing': 'error',
@@ -42,12 +42,10 @@ const typescriptConfig = [
             '@typescript-eslint/no-var-requires': 'off',
             '@typescript-eslint/no-unused-vars': ['error', {
                 'ignoreRestSiblings': true,
-                'caughtErrors': 'none',
-                'varsIgnorePattern': '^_',
             }],
             '@typescript-eslint/no-duplicate-enum-values': 'error',
             '@typescript-eslint/no-unnecessary-type-assertion': 'error',
-            '@typescript-eslint/prefer-optional-chain': 'off',
+            '@typescript-eslint/prefer-optional-chain': 'error',
             '@typescript-eslint/naming-convention': [
                 'error',
                 {
@@ -71,12 +69,6 @@ const typescriptConfig = [
                         'PascalCase',
                         'UPPER_CASE',
                     ],
-                },
-                {
-                    'selector': 'variable',
-                    'format': null,
-                    'modifiers': ['unused'],
-                    'leadingUnderscore': 'require',
                 },
                 {
                     'selector': [
