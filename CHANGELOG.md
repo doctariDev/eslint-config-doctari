@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 4.0.0 (2026-02-03)
+
+
+### ⚠ BREAKING CHANGES
+
+* Upgrade to eslint 9 using flat config
+
+### Features
+
+* upgrade to ESLint 9 with flat config format ([#5](https://github.com/doctariDev/eslint-config-doctari/issues/5)) ([131e4d5](https://github.com/doctariDev/eslint-config-doctari/commit/131e4d566451a34846a311a52d3f3c2123e158be))
+
 ## 3.76.0 (2025-11-07)
 
 
