@@ -24,18 +24,13 @@ jobs:
           git branch -u origin/master master
 
       - name: 'Upgrade dependencies'
-        run: |
-          yarn upgrade --latest
-          yarn add @typescript-eslint/eslint-plugin@7.18.0
-          yarn add @typescript-eslint/parser@7.18.0
-          yarn add eslint-plugin-cypress@4.3.0
-          yarn add eslint-plugin-unicorn@56.0.1
+        run: yarn upgrade --latest
 
       - name: 'Build'
         run: |
-          node ./scripts/build.js @doctarigroup/eslint-config default
-          node ./scripts/build.js @doctarigroup/eslint-config-react react
-          node ./scripts/build.js @doctarigroup/eslint-config-typescript typescript
+          node ./scripts/build.cjs @doctarigroup/eslint-config default
+          node ./scripts/build.cjs @doctarigroup/eslint-config-react react
+          node ./scripts/build.cjs @doctarigroup/eslint-config-typescript typescript
 
       - name: 'Push to git'
         run: |
